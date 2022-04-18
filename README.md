@@ -1,5 +1,5 @@
 # React Tree
-An tree structure built using React and supports CRUD operations.
+A basic tree structure built using React and nested array.
 
 Feature Set:
 - [x] Add sibling and child nodes up to nth level
@@ -7,3 +7,15 @@ Feature Set:
 - [x] Shift nodes up or down
 - [x] Drag n Drop new nodes
 - [x] Expand / collapse parent nodes
+
+## Prerequisites
+
+* [Node](https://nodejs.org/) (Make sure you have the node 12+ installed)
+
+## Getting Started
+
+1. Clone the repository `gh repo clone hassanamjad91/react-tree` (or if you're not using GitHub CLI: `git clone git@github.com:hassanamjad91/react-tree.git`)
+2. If you're using NVM run `nvm use` inside project directory to use node version set in `.nvmrc` file
+3. Run `npm install` or `npm i` to install all the dependencies
+4. To begin development task, run `npm start`
+5. Open [http://localhost:8080](http://localhost:8080)
