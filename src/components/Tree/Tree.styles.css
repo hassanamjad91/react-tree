@@ -1,0 +1,125 @@
+.tree-component {
+    font-size: 14px;
+}
+
+.tree-component li span {
+    margin: 0px 5px 0px 5px;
+}
+
+.tree-component li span.label {
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+}
+
+.tree-component li span.drop-target {
+   padding: 5px 15px 5px 15px;
+   border-radius: 5px;
+   border: 2px dotted grey;
+   cursor: default;
+}
+
+.tree-component li button {
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 7px 11px 7px 11px;
+}
+
+.tree-component li button.btn-del {
+    background: indianred;
+}
+
+.tree-component li button.btn-del:hover {
+    background: rgb(201, 78, 78);
+}
+
+.tree-component li button.btn-add {
+    background: darkseagreen;
+}
+
+.tree-component li button.btn-add:hover {
+    background: rgb(124, 187, 124);
+}
+
+.tree-component li span.label:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.tree-component li button.btn-collapsed {    
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(231, 231, 231);
+}
+
+.tree-component li button.btn-collapsed:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.tree-component li button.btn-contract {    
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+}
+
+.tree-component li button.btn-up-down {
+    color: black;
+    padding: 5px 11px 7px 11px;
+    background-color: rgb(231, 231, 231);
+}
+
+.tree-component li button.btn-up-down:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.tree-component ul.tree, ul.tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tree-component ul.tree ul {
+    margin-left: 10px;
+}
+
+.tree-component ul.tree li {
+    margin: 0;
+    padding: 0 7px;
+    line-height: 20px;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    border-left: 1px solid rgb(100,100,100);
+}
+
+.tree-component ul.tree li:last-child {
+    border-left: none;
+}
+
+.tree-component ul.tree li:before {
+    position: relative;
+    top: -0.3em;
+    height: 3em;
+    width: 12px;
+    color: white;
+    border-bottom: 1px solid rgb(100,100,100);
+    content: "";
+    display: inline-block;
+    left: -7px;
+}
+
+.tree-component ul.tree li:last-child:before {
+    border-left: 1px solid rgb(100,100,100);
+}

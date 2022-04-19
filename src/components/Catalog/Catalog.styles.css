@@ -1,0 +1,20 @@
+.catalog-container ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.catalog-container ul.list li {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.catalog-container ul.list li {
+    background-color: rgb(231, 231, 231);
+    cursor: move; 
+}
+
+.catalog-container ul.list li:hover {
+    background-color: rgb(192, 192, 192);    
+}

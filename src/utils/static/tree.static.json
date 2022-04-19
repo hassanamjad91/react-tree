@@ -1,0 +1,72 @@
+{	
+	"label": "Root",
+	"collapsed": true,
+	"children": [
+		{			
+			"label": "Virtual Machines",
+			"collapsed": true,	
+			"children": [
+				{		
+					"label": "Windows 10",
+					"collapsed": false,						
+					"children": [
+						{
+							"label": "Snapshots",
+							"collapsed": true,
+							"children": []
+						}
+					]
+				},
+				{		
+					"label": "CentOS Stream",
+					"collapsed": false,						
+					"children": [
+						{
+							"label": "Docker images",
+							"collapsed": true,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Tutorials",
+			"collapsed": true,				
+			"children": [
+				{
+					"label": "React Design Patterns",
+					"collapsed": true,
+					"children": [
+						{
+							"label": "Chapter 1",
+							"collapsed": true,
+							"children": []
+						},
+						{
+							"label": "Chapter 2",
+							"collapsed": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "AWS Fundamentals",
+					"collapsed": true,
+					"children": [
+						{
+							"label": "Chapter 1",
+							"collapsed": true,
+							"children": []
+						},
+						{
+							"label": "Chapter 2",
+							"collapsed": true,
+							"children": []
+						}
+					]
+				}
+			]
+		}		
+	]		
+}
