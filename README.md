@@ -1,7 +1,7 @@
 # React Tree
 A basic tree structure built using React and nested array.
 
-Feature Set:
+## Feature Set:
 - [x] Add sibling and child nodes up to nth level
 - [x] Delete subling and child nodes 
 - [x] Shift nodes up or down
