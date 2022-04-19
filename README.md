@@ -1,5 +1,5 @@
 # React Tree
-A basic tree structure built using React, react hooks and a nested array.
+A barebone tree structure app built using React, react hooks and a nested array.
 
 ## Feature Set:
 - [x] Add sibling and child nodes up to nth level
