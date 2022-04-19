@@ -5,7 +5,7 @@ Feature Set:
 - [x] Add sibling and child nodes up to nth level
 - [x] Delete subling and child nodes 
 - [x] Shift nodes up or down
-- [x] Drag n Drop new nodes
+- [x] Drag n Drop new nodes from catalog
 - [x] Expand / collapse parent nodes
 
 ## Prerequisites
