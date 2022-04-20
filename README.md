@@ -1,6 +1,6 @@
 # React Tree
 
-A barebone tree application built using React, react hooks and a nested array.  
+This is a barebone tree application built using React, react hooks and a nested array.  
 No assistive libraries were used for this project.
 
 ## Feature Set:
